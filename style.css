@@ -6,7 +6,10 @@
     text-decoration: none;
 }
 body {
-    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT' 'Trebuchet MS', sans-serif;
+    background-color:  hsl(0, 0%, 3%);
+    color: aliceblue;
+    min-height: 2000px;
 }
 
 .navbar {
@@ -18,34 +21,52 @@ body {
     left: 0;
     right: 0;
     z-index: 9999;
-    padding: 20px 7%;
-    border-bottom: 1px solid teal;
+    padding: 1.4rem 7%;
+    background-color: hsl(0, 0%, 3%);
+    
     
 }
 
 .navbar-logo{
-    font-size: 30px;
-    font-weight: 700;
-    color: teal;
+    font-size: 25px;
+    font-weight: 700px;
+    color: hsl(180, 71%, 32%);
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 
-.navbar-menu{
-    font-size: 20px;
-    font-weight: 500;
-    color: teal;
-    
+.navbar-menu > a{
+   text-decoration: none;
+   color: rgb(220, 220, 220);
+   padding: 5px;
+   margin: 5px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}   
+
+.navbar-menu a:hover{
+    background-color: hsl(180, 47%, 54%);
+    border-radius: 7px;
 }
 
-.foto {
-    width: 700px;
-    height:500px;
-}
 
-.container {
-    padding-top: 80px;
-    margin: 40px;
-    flex-wrap: wrap;
+.home {
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    background-image: url("AgnezMo-head.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.content {
+    color: #99f269;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1.4rem 7%;
+    max-width: 50%;
+}
+.biography{
+    padding: 1.4rem, 7%,;
+    margin-top:30rem;
+    
 }
