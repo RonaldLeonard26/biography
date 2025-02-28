@@ -142,5 +142,18 @@ body {
     font-size: medium;
     color: rgba(240, 248, 255, 0.696);
     letter-spacing: 1px;
+    justify-content: space-between;
+}
 
+.karir4{
+    display: flex;
+    padding: 6rem 7%;
+    color: rgba(240, 248, 255, 0.696);
+    letter-spacing: 1px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.image2 img {
+    padding: 1px 0 0 1rem ;
 }
